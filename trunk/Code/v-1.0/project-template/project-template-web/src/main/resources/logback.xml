@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+    <contextName>logback</contextName>
+    <!--输出到控制台-->
+    <appender name="console" class="ch.qos.logback.core.ConsoleAppender">
+        <encoder>
+            <pattern>%d{HH:mm:ss} [%thread] %-5level %logger{36} - %msg%n</pattern>
+        </encoder>
+    </appender>
+
+    <!-- 集成elk -->
+    <appender name="logFile" class="net.logstash.logback.appender.LogstashTcpSocketAppender">
+        <!--logstash配置的tcp地址和端口-->
+        <destination>192.168.22.130:9220</destination>
+        <encoder charset="UTF-8" class="net.logstash.logback.encoder.LogstashEncoder">
+            <!--配置应用名称-->
+            <customFields>{"appname":"data-manage"}</customFields>
+        </encoder>
+    </appender>
+
+    <!--配置应用名称-->
+    <include resource="org/springframework/boot/logging/logback/base.xml"/>
+
+    <!--日志级别 Trace -> Debug -> Info -> Warn -> Error -> Fatal -->
+    <root level="Info">
+        <appender-ref ref="console"/>
+        <appender-ref ref="logFile"/>
+    </root>
+
+</configuration>

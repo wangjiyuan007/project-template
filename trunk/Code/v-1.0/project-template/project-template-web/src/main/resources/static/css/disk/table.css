@@ -1,0 +1,7 @@
+.diskColStyle {
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.diskTable {table-layout:fixed;}

@@ -1,0 +1,49 @@
+server:
+  session-timeout: 1800
+#    tomcat:
+#        max-threads: 1000
+#        min-spare-threads: 30
+  port: 8080
+#    uri-encoding: utf-8
+#security:
+#  basic:
+#    enabled: false
+spring:
+  application:
+    name: data-manage-web
+  thymeleaf:
+    mode: LEGACYHTML5
+    cache: false
+  jackson:
+    time-zone: GMT+8
+    date-format: yyyy-MM-dd HH:mm:ss
+  profiles:
+    active: pro
+  servlet:
+    multipart:
+      max-file-size: 300Mb
+      max-request-size: 300Mb
+  devtools:
+    restart:
+      enabled: true
+  cache:
+    type: ehcache
+    ehcache:
+      config: classpath:config/ehcache.xml
+#  cloud:
+#    consul:
+#      host: localhost
+#      port: 8500
+#      discovery:
+##        enable: true
+#        healthCheckPath: /test ##\u5065\u5eb7\u68c0\u67e5\u94fe\u63a5
+#        healthCheckInterval: 15s ##\u76d1\u63a7\u68c0\u67e5\u9891\u7387
+#        ip-address: true
+#        instance-id: ${spring.application.name}:${spring.cloud.client.ipaddress}:${spring.application.instance_id:${server.port}}
+mybatis:
+  configuration:
+    map-underscore-to-camel-case: true
+  mapper-locations: classpath*:mybatis/**/*Mapper.xml
+  typeAliasesPackage: com.leador.**.domain
+#[\u5f03\u7528]\u914d\u7f6e\u7f13\u5b58\u548csession\u5b58\u50a8\u65b9\u5f0f\uff0c\u9ed8\u8ba4ehcache,\u53ef\u9009redis,[\u5f03\u7528]\u8c03\u6574\u81f3 spring cache type\u3010shiro.\u7528\u6237\uff0c\u6743\u9650\uff0csession\uff0cspring.cache\u901a\u7528\u3011
+#[\u5f03\u7528]cacheType: ehcache
