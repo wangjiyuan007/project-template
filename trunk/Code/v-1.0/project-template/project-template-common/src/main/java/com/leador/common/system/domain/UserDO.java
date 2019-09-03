@@ -52,7 +52,8 @@ public class UserDO implements Serializable {
     private String hobby;
     //省份
     private String province;
-
+    //城市
+    private String city;
     //所在地区
     private String district;
 }

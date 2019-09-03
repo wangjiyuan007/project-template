@@ -2,29 +2,52 @@ package com.leador.data.system.redis.shiro;
 
 import java.util.Set;
 
-import com.leador.common.system.utils.RedisUtil;
-import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Value;
+import redis.clients.jedis.Jedis;
+import redis.clients.jedis.JedisPool;
+import redis.clients.jedis.JedisPoolConfig;
 
 /**
- * <p>Title: RedisManager</p>
- * <p>Description: </p>
- * <p>Company: www.leador.com.cn</p>
- * <p>Date: 2018年10月25日 下午3:14:29</p>
  *
- * @author XiaShenBao
- * @version 1.0
  */
 public class RedisManager {
 
+    @Value("${spring.redis.host}")
+    private String host = "localhost";
+
+    @Value("${spring.redis.port}")
+    private int port = 6379;
+
+    // 0 - never expire
     private int expire = 0;
 
+    //timeout for jedis try to connect to redis server, not expire time! In milliseconds
+    @Value("${spring.redis.timeout}")
     private int timeout = 0;
 
-    @Autowired
-    private RedisUtil redisUtil;
+    @Value("${spring.redis.password}")
+    private String password = "";
+
+    private static JedisPool jedisPool = null;
 
     public RedisManager() {
 
+    }
+
+    /**
+     * 初始化方法
+     */
+    public void init() {
+        if (jedisPool == null) {
+            if (password != null && !"".equals(password)) {
+                jedisPool = new JedisPool(new JedisPoolConfig(), host, port, timeout, password);
+            } else if (timeout != 0) {
+                jedisPool = new JedisPool(new JedisPoolConfig(), host, port, timeout);
+            } else {
+                jedisPool = new JedisPool(new JedisPoolConfig(), host, port);
+            }
+
+        }
     }
 
     /**
@@ -34,11 +57,16 @@ public class RedisManager {
      * @return
      */
     public byte[] get(byte[] key) {
-        return redisUtil.get(key);
-    }
-
-    public String getString(byte[] key) {
-        return redisUtil.get(new String(key));
+        byte[] value = null;
+        Jedis jedis = jedisPool.getResource();
+        try {
+            value = jedis.get(key);
+        } finally {
+            if (jedis != null) {
+                jedis.close();
+            }
+        }
+        return value;
     }
 
     /**
@@ -49,7 +77,17 @@ public class RedisManager {
      * @return
      */
     public byte[] set(byte[] key, byte[] value) {
-        redisUtil.set(key, value);
+        Jedis jedis = jedisPool.getResource();
+        try {
+            jedis.set(key, value);
+            if (this.expire != 0) {
+                jedis.expire(key, this.expire);
+            }
+        } finally {
+            if (jedis != null) {
+                jedis.close();
+            }
+        }
         return value;
     }
 
@@ -61,8 +99,19 @@ public class RedisManager {
      * @param expire
      * @return
      */
-    public void set(byte[] key, byte[] value, int expire) {
-        redisUtil.set(key, value);
+    public byte[] set(byte[] key, byte[] value, int expire) {
+        Jedis jedis = jedisPool.getResource();
+        try {
+            jedis.set(key, value);
+            if (expire != 0) {
+                jedis.expire(key, expire);
+            }
+        } finally {
+            if (jedis != null) {
+                jedis.close();
+            }
+        }
+        return value;
     }
 
     /**
@@ -71,31 +120,87 @@ public class RedisManager {
      * @param key
      */
     public void del(byte[] key) {
-        redisUtil.delete(key);
+        Jedis jedis = jedisPool.getResource();
+        try {
+            jedis.del(key);
+        } finally {
+            if (jedis != null) {
+                jedis.close();
+            }
+        }
     }
 
     /**
      * flush
      */
     public void flushDB() {
-        redisUtil.flushDB();
+        Jedis jedis = jedisPool.getResource();
+        try {
+            jedis.flushDB();
+        } finally {
+            if (jedis != null) {
+                jedis.close();
+            }
+        }
     }
 
     /**
      * size
      */
     public Long dbSize() {
-        return redisUtil.dbSize();
+        Long dbSize = 0L;
+        Jedis jedis = jedisPool.getResource();
+        try {
+            dbSize = jedis.dbSize();
+        } finally {
+            if (jedis != null) {
+                jedis.close();
+            }
+        }
+        return dbSize;
     }
 
     /**
      * keys
      *
-     * @param pattern
+     * @param regex
      * @return
      */
     public Set<byte[]> keys(String pattern) {
-        return redisUtil.keys(pattern);
+        Set<byte[]> keys = null;
+        Jedis jedis = jedisPool.getResource();
+        try {
+            keys = jedis.keys(pattern.getBytes());
+        } finally {
+            if (jedis != null) {
+                jedis.close();
+            }
+        }
+        return keys;
+    }
+
+    public String getHost() {
+        return host;
+    }
+
+    public void setHost(String host) {
+        this.host = host;
+    }
+
+    public int getPort() {
+        return port;
+    }
+
+    public void setPort(int port) {
+        this.port = port;
+    }
+
+    public int getExpire() {
+        return expire;
+    }
+
+    public void setExpire(int expire) {
+        this.expire = expire;
     }
 
     public int getTimeout() {
@@ -106,12 +211,12 @@ public class RedisManager {
         this.timeout = timeout;
     }
 
-    public int getExpire() {
-        return expire;
+    public String getPassword() {
+        return password;
     }
 
-    public void setExpire(int expire) {
-        this.expire = expire;
+    public void setPassword(String password) {
+        this.password = password;
     }
 
 
