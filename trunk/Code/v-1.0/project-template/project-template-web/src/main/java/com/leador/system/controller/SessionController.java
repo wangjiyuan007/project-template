@@ -12,9 +12,9 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.servlet.mvc.support.RedirectAttributes;
 
-import com.leador.common.system.domain.UserOnline;
-import com.leador.common.system.utils.R;
-import com.leador.data.system.service.SessionService;
+import com.wjy.common.system.domain.UserOnline;
+import com.wjy.common.system.utils.R;
+import com.wjy.data.system.service.SessionService;
 
 /**
  * <p>Title: SessionController</p>

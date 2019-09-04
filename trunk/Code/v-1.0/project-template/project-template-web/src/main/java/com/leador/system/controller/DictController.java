@@ -17,12 +17,12 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.ResponseBody;
 
-import com.leador.common.system.config.Constant;
-import com.leador.common.system.domain.DictDO;
-import com.leador.common.system.utils.PageUtils;
-import com.leador.common.system.utils.Query;
-import com.leador.common.system.utils.R;
-import com.leador.data.system.service.DictService;
+import com.wjy.common.system.config.Constant;
+import com.wjy.common.system.domain.DictDO;
+import com.wjy.common.system.utils.PageUtils;
+import com.wjy.common.system.utils.Query;
+import com.wjy.common.system.utils.R;
+import com.wjy.data.system.service.DictService;
 
 /**
  * <p>Title: DictController</p>

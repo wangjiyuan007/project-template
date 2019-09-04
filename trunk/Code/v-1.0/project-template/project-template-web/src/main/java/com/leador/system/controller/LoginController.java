@@ -1,14 +1,14 @@
 package com.leador.system.controller;
 
-import com.leador.common.system.domain.MenuDO;
-import com.leador.common.system.domain.Tree;
-import com.leador.common.system.utils.MD5Utils;
-import com.leador.common.system.utils.R;
-import com.leador.common.system.utils.ShiroUtils;
-import com.leador.data.system.annotation.Log;
-import com.leador.data.system.service.MenuService;
-import com.leador.data.system.service.RoleService;
-import com.leador.data.system.service.UserRoleService;
+import com.wjy.common.system.domain.MenuDO;
+import com.wjy.common.system.domain.Tree;
+import com.wjy.common.system.utils.MD5Utils;
+import com.wjy.common.system.utils.R;
+import com.wjy.common.system.utils.ShiroUtils;
+import com.wjy.data.system.annotation.Log;
+import com.wjy.data.system.service.MenuService;
+import com.wjy.data.system.service.RoleService;
+import com.wjy.data.system.service.UserRoleService;
 import org.apache.shiro.SecurityUtils;
 import org.apache.shiro.authc.AuthenticationException;
 import org.apache.shiro.authc.UsernamePasswordToken;

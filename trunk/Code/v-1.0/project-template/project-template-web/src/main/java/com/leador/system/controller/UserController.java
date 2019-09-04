@@ -1,14 +1,11 @@
 package com.leador.system.controller;
 
-import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 import java.util.stream.Collectors;
 
-import javax.servlet.http.HttpServletRequest;
-
-import com.leador.common.system.utils.*;
-import com.leador.data.system.service.UserRoleService;
+import com.wjy.common.system.utils.*;
+import com.wjy.data.system.service.UserRoleService;
 import org.apache.shiro.authz.annotation.RequiresPermissions;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
@@ -19,19 +16,17 @@ import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.ResponseBody;
-import org.springframework.web.multipart.MultipartFile;
 
-import com.leador.common.system.config.Constant;
-import com.leador.common.system.domain.DeptDO;
-import com.leador.common.system.domain.RoleDO;
-import com.leador.common.system.domain.Tree;
-import com.leador.common.system.domain.UserDO;
-import com.leador.common.system.vo.UserVO;
-import com.leador.data.system.annotation.Log;
-import com.leador.data.system.service.DictService;
-import com.leador.data.system.service.RoleService;
-import com.leador.data.system.service.UserService;
-import org.springframework.web.servlet.ModelAndView;
+import com.wjy.common.system.config.Constant;
+import com.wjy.common.system.domain.DeptDO;
+import com.wjy.common.system.domain.RoleDO;
+import com.wjy.common.system.domain.Tree;
+import com.wjy.common.system.domain.UserDO;
+import com.wjy.common.system.vo.UserVO;
+import com.wjy.data.system.annotation.Log;
+import com.wjy.data.system.service.DictService;
+import com.wjy.data.system.service.RoleService;
+import com.wjy.data.system.service.UserService;
 
 /**
  * <p>Title: UserController</p>

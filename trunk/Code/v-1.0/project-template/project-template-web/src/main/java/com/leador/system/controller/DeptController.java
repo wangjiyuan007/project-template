@@ -15,11 +15,11 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.ResponseBody;
 
-import com.leador.common.system.config.Constant;
-import com.leador.common.system.domain.DeptDO;
-import com.leador.common.system.domain.Tree;
-import com.leador.common.system.utils.R;
-import com.leador.data.system.service.DeptService;
+import com.wjy.common.system.config.Constant;
+import com.wjy.common.system.domain.DeptDO;
+import com.wjy.common.system.domain.Tree;
+import com.wjy.common.system.utils.R;
+import com.wjy.data.system.service.DeptService;
 
 import io.swagger.annotations.ApiOperation;
 

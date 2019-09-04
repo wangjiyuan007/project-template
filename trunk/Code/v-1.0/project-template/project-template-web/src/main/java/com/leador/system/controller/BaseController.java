@@ -2,8 +2,8 @@ package com.leador.system.controller;
 
 import org.springframework.stereotype.Controller;
 
-import com.leador.common.system.domain.UserDO;
-import com.leador.common.system.utils.ShiroUtils;
+import com.wjy.common.system.domain.UserDO;
+import com.wjy.common.system.utils.ShiroUtils;
 
 /**
  * <p>Title: BaseController</p>

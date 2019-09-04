@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
 
-<mapper namespace="com.leador.data.system.dao.DictDao">
+<mapper namespace="com.wjy.data.system.dao.DictDao">
 
-	<select id="get" resultType="com.leador.common.system.domain.DictDO">
+	<select id="get" resultType="com.wjy.common.system.domain.DictDO">
 		select
 		`id`,`name`,`value`,`type`,`description`,`sort`,`parent_id`,`create_by`,`create_date`,`update_by`,`update_date`,`remarks`,`del_flag`
 		from sys_dict where id = #{value}
 	</select>
 
-	<select id="list" resultType="com.leador.common.system.domain.DictDO">
+	<select id="list" resultType="com.wjy.common.system.domain.DictDO">
 		select
 		`id`,`name`,`value`,`type`,`description`,`sort`,`parent_id`,`create_by`,`create_date`,`update_by`,`update_date`,`remarks`,`del_flag`
 		from sys_dict
@@ -58,7 +58,7 @@
 		</where>
 	</select>
 
-	<insert id="save" parameterType="com.leador.common.system.domain.DictDO"
+	<insert id="save" parameterType="com.wjy.common.system.domain.DictDO"
 		useGeneratedKeys="true" keyProperty="id">
 		insert into sys_dict
 		(
@@ -92,7 +92,7 @@
 		)
 	</insert>
 
-	<update id="update" parameterType="com.leador.common.system.domain.DictDO">
+	<update id="update" parameterType="com.wjy.common.system.domain.DictDO">
 		update sys_dict
 		<set>
 			<if test="name != null">`name` = #{name}, </if>
@@ -123,7 +123,7 @@
 		</foreach>
 	</delete>
 
-	<select id="listType" resultType="com.leador.common.system.domain.DictDO">
+	<select id="listType" resultType="com.wjy.common.system.domain.DictDO">
 		select distinct `type` , description from sys_dict
 	</select>
 

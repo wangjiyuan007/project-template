@@ -14,12 +14,12 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.ResponseBody;
 
-import com.leador.common.system.config.Constant;
-import com.leador.common.system.domain.MenuDO;
-import com.leador.common.system.domain.Tree;
-import com.leador.common.system.utils.R;
-import com.leador.data.system.annotation.Log;
-import com.leador.data.system.service.MenuService;
+import com.wjy.common.system.config.Constant;
+import com.wjy.common.system.domain.MenuDO;
+import com.wjy.common.system.domain.Tree;
+import com.wjy.common.system.utils.R;
+import com.wjy.data.system.annotation.Log;
+import com.wjy.data.system.service.MenuService;
 
 /**
  * <p>Title: MenuController</p>

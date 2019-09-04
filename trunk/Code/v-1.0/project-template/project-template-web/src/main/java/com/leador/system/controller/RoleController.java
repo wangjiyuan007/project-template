@@ -13,11 +13,11 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.ResponseBody;
 
-import com.leador.common.system.config.Constant;
-import com.leador.common.system.domain.RoleDO;
-import com.leador.common.system.utils.R;
-import com.leador.data.system.annotation.Log;
-import com.leador.data.system.service.RoleService;
+import com.wjy.common.system.config.Constant;
+import com.wjy.common.system.domain.RoleDO;
+import com.wjy.common.system.utils.R;
+import com.wjy.data.system.annotation.Log;
+import com.wjy.data.system.service.RoleService;
 
 /**
  * <p>Title: RoleController</p>

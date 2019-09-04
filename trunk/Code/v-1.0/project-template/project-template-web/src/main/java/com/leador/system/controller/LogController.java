@@ -10,11 +10,11 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.ResponseBody;
 
-import com.leador.common.system.domain.LogDO;
-import com.leador.common.system.domain.PageDO;
-import com.leador.common.system.utils.Query;
-import com.leador.common.system.utils.R;
-import com.leador.data.system.service.LogService;
+import com.wjy.common.system.domain.LogDO;
+import com.wjy.common.system.domain.PageDO;
+import com.wjy.common.system.utils.Query;
+import com.wjy.common.system.utils.R;
+import com.wjy.data.system.service.LogService;
 
 /**
  * <p>Title: LogController</p>
