@@ -25,7 +25,7 @@ import com.wjy.data.system.dao.UserDao;
 /**
  * <p>Title: UserRealm</p>
  * <p>Description: </p>
- * <p>Company: www.leador.com.cn</p> 
+ * <p>Company: www.wjy.com.cn</p>
  * <p>Date: 2018年10月25日 下午3:16:53</p>
  * @author	XiaShenBao
  * @version 1.0

@@ -15,7 +15,7 @@ import org.apache.shiro.util.CollectionUtils;
 /**
  * <p>Title: RedisCache</p>
  * <p>Description: Redis缓存</p>
- * <p>Company: www.leador.com.cn</p>
+ * <p>Company: www.wjy.com.cn</p>
  * <p>Date: 2018年10月25日 下午3:13:57</p>
  *
  * @version 1.0

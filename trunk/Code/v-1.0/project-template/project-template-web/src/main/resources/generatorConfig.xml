@@ -23,7 +23,7 @@
         </javaTypeResolver>
 
         &lt;!&ndash; targetProject:生成PO类的位置 &ndash;&gt;
-        <javaModelGenerator targetPackage="com.leador.common.disk.domain"
+        <javaModelGenerator targetPackage="com.wjymmon.disk.domain"
                             targetProject="src/main/java">
             &lt;!&ndash; enableSubPackages:是否让schema作为包的后缀 &ndash;&gt;
             <property name="enableSubPackages" value="false" />
@@ -41,7 +41,7 @@
         </sqlMapGenerator>
         &lt;!&ndash; targetPackage：mapper接口生成的位置 &ndash;&gt;
         <javaClientGenerator type="XMLMAPPER"
-                             targetPackage="com.leador.data.system.disk.dao"
+                             targetPackage="com.wjyta.system.disk.dao"
                              targetProject="src/main/java">
             &lt;!&ndash; enableSubPackages:是否让schema作为包的后缀 &ndash;&gt;
             <property name="enableSubPackages" value="false" />

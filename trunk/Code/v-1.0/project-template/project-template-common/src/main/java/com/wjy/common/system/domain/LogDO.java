@@ -8,7 +8,7 @@ import java.util.Date;
 /**
  * <p>Title: LogDO</p>
  * <p>Description: 日志类</p>
- * <p>Company: www.leador.com.cn</p> 
+ * <p>Company: www.wjy.com.cn</p>
  * <p>Date: 2018年10月24日 下午7:15:23</p>
  * @author	XiaShenBao
  * @version 1.0

@@ -27,7 +27,7 @@ import com.wjy.common.system.utils.ShiroUtils;
 /**
  * <p>Title: LogAspect</p>
  * <p>Description: 日志切面</p>
- * <p>Company: www.leador.com.cn</p> 
+ * <p>Company: www.wjy.com.cn</p>
  * <p>Date: 2018年10月25日 上午11:18:53</p>
  * @author	XiaShenBao
  * @version 1.0

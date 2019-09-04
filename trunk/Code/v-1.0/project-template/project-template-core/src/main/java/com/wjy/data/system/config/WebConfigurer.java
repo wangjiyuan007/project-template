@@ -8,7 +8,7 @@ import org.springframework.web.servlet.config.annotation.WebMvcConfigurerAdapter
 /**
  * <p>Title: WebConfigurer</p>
  * <p>Description: </p>
- * <p>Company: www.leador.com.cn</p>
+ * <p>Company: www.wjy.com.cn</p>
  * <p>Date: 2018年10月25日 下午3:12:13</p>
  *
  * @author XiaShenBao

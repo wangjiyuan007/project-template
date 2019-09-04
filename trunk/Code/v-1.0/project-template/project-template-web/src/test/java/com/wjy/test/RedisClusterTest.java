@@ -1,6 +1,6 @@
-//package com.leador.test;
+//package com.wjy.test;
 //
-//import com.leador.common.system.utils.RedisUtil;
+//import com.wjy.common.system.utils.RedisUtil;
 //import org.junit.Test;
 //import org.junit.runner.RunWith;
 //import org.springframework.beans.factory.annotation.Autowired;

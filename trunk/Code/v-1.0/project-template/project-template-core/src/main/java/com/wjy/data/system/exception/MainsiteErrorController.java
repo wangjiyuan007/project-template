@@ -18,7 +18,7 @@ import com.wjy.common.system.utils.R;
 /**
  * <p>Title: MainsiteErrorController</p>
  * <p>Description: </p>
- * <p>Company: www.leador.com.cn</p> 
+ * <p>Company: www.wjy.com.cn</p>
  * <p>Date: 2018年10月25日 下午3:13:18</p>
  * @author	XiaShenBao
  * @version 1.0

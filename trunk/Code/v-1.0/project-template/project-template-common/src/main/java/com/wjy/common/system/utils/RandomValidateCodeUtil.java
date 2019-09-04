@@ -14,7 +14,7 @@ import java.util.Random;
 /**
  * <p>Title: RandomValidateCodeUtil</p>
  * <p>Description: 验证码工具类</p>
- * <p>Company: www.leador.com.cn</p> 
+ * <p>Company: www.wjy.com.cn</p>
  * <p>Date: 2019年2月26日 上午9:18:59</p>
  * @author	XiaShenBao
  * @version 1.0

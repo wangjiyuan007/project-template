@@ -11,7 +11,7 @@ import org.apache.shiro.cache.CacheManager;
 /**
  * <p>Title: RedisCacheManager</p>
  * <p>Description: Redis缓存管理</p>
- * <p>Company: www.leador.com.cn</p> 
+ * <p>Company: www.wjy.com.cn</p>
  * <p>Date: 2018年10月25日 下午3:14:12</p>
  * @author	XiaShenBao
  * @version 1.0

@@ -13,7 +13,7 @@ import com.wjy.common.system.domain.UserOnline;
 /**
  * <p>Title: SessionService</p>
  * <p>Description: Session管理</p>
- * <p>Company: www.leador.com.cn</p> 
+ * <p>Company: www.wjy.com.cn</p>
  * <p>Date: 2018年10月25日 上午10:49:46</p>
  * @author	XiaShenBao
  * @version 1.0

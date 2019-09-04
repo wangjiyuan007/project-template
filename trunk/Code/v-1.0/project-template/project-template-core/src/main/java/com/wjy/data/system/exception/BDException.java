@@ -3,7 +3,7 @@ package com.wjy.data.system.exception;
 /**
  * <p>Title: BDException</p>
  * <p>Description: 自定义异常</p>
- * <p>Company: www.leador.com.cn</p> 
+ * <p>Company: www.wjy.com.cn</p>
  * <p>Date: 2018年10月25日 下午3:12:57</p>
  * @author	XiaShenBao
  * @version 1.0

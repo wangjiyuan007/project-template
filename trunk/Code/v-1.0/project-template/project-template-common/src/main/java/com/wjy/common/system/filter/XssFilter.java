@@ -25,7 +25,7 @@ import org.slf4j.LoggerFactory;
  * 拦截防止xss注入
  * 通过Jsoup过滤请求参数内的特定字符
  * </p>
- * <p>Company: www.leador.com.cn</p> 
+ * <p>Company: www.wjy.com.cn</p>
  * <p>Date: 2018年10月25日 上午11:24:09</p>
  * @author	XiaShenBao
  * @version 1.0

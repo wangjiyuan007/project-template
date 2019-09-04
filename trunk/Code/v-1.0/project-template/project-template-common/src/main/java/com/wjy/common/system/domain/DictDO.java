@@ -8,7 +8,7 @@ import lombok.Data;
 /**
  * <p>Title: DictDO</p>
  * <p>Description: 字典表</p>
- * <p>Company: www.leador.com.cn</p> 
+ * <p>Company: www.wjy.com.cn</p>
  * <p>Date: 2018年10月24日 下午7:11:57</p>
  * @author	XiaShenBao
  * @version 1.0

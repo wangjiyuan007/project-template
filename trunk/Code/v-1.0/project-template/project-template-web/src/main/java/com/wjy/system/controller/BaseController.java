@@ -1,4 +1,4 @@
-package com.leador.system.controller;
+package com.wjy.system.controller;
 
 import org.springframework.stereotype.Controller;
 
@@ -8,7 +8,7 @@ import com.wjy.common.system.utils.ShiroUtils;
 /**
  * <p>Title: BaseController</p>
  * <p>Description: </p>
- * <p>Company: www.leador.com.cn</p> 
+ * <p>Company: www.wjy.com.cn</p>
  * <p>Date: 2018年10月25日 下午4:51:57</p>
  * @author	XiaShenBao
  * @version 1.0

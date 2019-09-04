@@ -135,5 +135,4 @@ public class RedisSessionDAO extends AbstractSessionDAO {
         this.keyPrefix = keyPrefix;
     }
 
-
 }

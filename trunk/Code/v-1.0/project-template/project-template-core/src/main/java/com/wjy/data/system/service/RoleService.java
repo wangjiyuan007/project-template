@@ -9,7 +9,7 @@ import com.wjy.common.system.domain.RoleDO;
 /**
  * <p>Title: RoleService</p>
  * <p>Description: 角色管理</p>
- * <p>Company: www.leador.com.cn</p>
+ * <p>Company: www.wjy.com.cn</p>
  * <p>Date: 2018年10月25日 上午10:49:37</p>
  *
  * @version 1.0

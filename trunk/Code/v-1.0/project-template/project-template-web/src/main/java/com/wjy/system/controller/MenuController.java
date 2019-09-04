@@ -1,4 +1,4 @@
-package com.leador.system.controller;
+package com.wjy.system.controller;
 
 import java.util.List;
 import java.util.Map;
@@ -24,7 +24,7 @@ import com.wjy.data.system.service.MenuService;
 /**
  * <p>Title: MenuController</p>
  * <p>Description: 菜单管理</p>
- * <p>Company: www.leador.com.cn</p> 
+ * <p>Company: www.wjy.com.cn</p>
  * <p>Date: 2018年10月25日 上午11:23:00</p>
  * @author	XiaShenBao
  * @version 1.0

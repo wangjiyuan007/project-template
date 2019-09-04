@@ -12,7 +12,7 @@ import com.wjy.common.system.filter.XssFilter;
 /**
  * <p>Title: XssConfig</p>
  * <p>Description: Xss配置</p>
- * <p>Company: www.leador.com.cn</p> 
+ * <p>Company: www.wjy.com.cn</p>
  * <p>Date: 2018年10月25日 下午3:11:50</p>
  * @author	XiaShenBao
  * @version 1.0

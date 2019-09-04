@@ -1,4 +1,4 @@
-package com.leador.system.controller;
+package com.wjy.system.controller;
 
 import com.wjy.common.system.domain.MenuDO;
 import com.wjy.common.system.domain.Tree;
@@ -27,7 +27,7 @@ import java.util.List;
 /**
  * <p>Title: LoginController</p>
  * <p>Description: 登录控制</p>
- * <p>Company: www.leador.com.cn</p>
+ * <p>Company: www.wjy.com.cn</p>
  * <p>Date: 2018年10月25日 上午11:22:46</p>
  *
  * @author XiaShenBao

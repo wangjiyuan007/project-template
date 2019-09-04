@@ -12,7 +12,7 @@ import java.util.zip.DataFormatException;
 /**
  * <p>Title: DateConverConfig</p>
  * <p>Description: </p>
- * <p>Company: www.leador.com.cn</p> 
+ * <p>Company: www.wjy.com.cn</p>
  * <p>Date: 2018年10月25日 下午3:10:02</p>
  * @author	XiaShenBao
  * @version 1.0

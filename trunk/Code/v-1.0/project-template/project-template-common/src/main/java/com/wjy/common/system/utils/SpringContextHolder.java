@@ -1,5 +1,5 @@
 package com.wjy.common.system.utils;
-//package com.leador.common.system.utils;
+//package com.wjy.common.system.utils;
 //
 //import org.apache.commons.lang3.Validate;
 //import org.slf4j.Logger;

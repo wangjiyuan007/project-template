@@ -10,7 +10,7 @@ import com.wjy.common.system.domain.DeptDO;
 /**
  * <p>Title: DeptDao</p>
  * <p>Description: 部门管理</p>
- * <p>Company: www.leador.com.cn</p> 
+ * <p>Company: www.wjy.com.cn</p>
  * <p>Date: 2018年10月25日 上午10:55:23</p>
  * @author	XiaShenBao
  * @version 1.0

@@ -12,7 +12,7 @@ import com.wjy.common.system.utils.JsoupUtil;
  * <p>Title: XssHttpServletRequestWrapper</p>
  * <p>Description: </p>
  * <code>{@link XssHttpServletRequestWrapper}</code>
- * <p>Company: www.leador.com.cn</p> 
+ * <p>Company: www.wjy.com.cn</p>
  * <p>Date: 2018年10月25日 上午11:23:57</p>
  * @author	XiaShenBao
  * @version 1.0

@@ -1,4 +1,4 @@
-package com.leador;
+package com.wjy;
 
 import org.mybatis.spring.annotation.MapperScan;
 import org.springframework.boot.SpringApplication;
@@ -12,7 +12,7 @@ import org.springframework.transaction.annotation.EnableTransactionManagement;
 })
 @EnableTransactionManagement
 @ServletComponentScan
-@MapperScan(basePackages={"com.leador.**.dao"})
+@MapperScan(basePackages={"com.wjy.**.dao"})
 @SpringBootApplication
 @EnableCaching
 //@EnableDiscoveryClient

@@ -10,7 +10,7 @@ import com.wjy.common.system.domain.UserDO;
 /**
  * <p>Title: UserDao</p>
  * <p>Description: 用户管理</p>
- * <p>Company: www.leador.com.cn</p> 
+ * <p>Company: www.wjy.com.cn</p>
  * <p>Date: 2018年10月25日 上午10:57:56</p>
  * @author	XiaShenBao
  * @version 1.0

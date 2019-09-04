@@ -1,4 +1,4 @@
-package com.leador.system.controller;
+package com.wjy.system.controller;
 
 import java.util.Map;
 
@@ -19,7 +19,7 @@ import com.wjy.data.system.service.LogService;
 /**
  * <p>Title: LogController</p>
  * <p>Description: 日志管理</p>
- * <p>Company: www.leador.com.cn</p> 
+ * <p>Company: www.wjy.com.cn</p>
  * <p>Date: 2018年10月25日 上午11:20:43</p>
  * @author	XiaShenBao
  * @version 1.0

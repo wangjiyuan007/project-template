@@ -19,7 +19,7 @@ import java.util.Objects;
 /**
  * <p>Title: RoleServiceImpl</p>
  * <p>Description: 角色管理</p>
- * <p>Company: www.leador.com.cn</p>
+ * <p>Company: www.wjy.com.cn</p>
  * <p>Date: 2018年10月25日 上午11:08:34</p>
  *
  * @author XiaShenBao

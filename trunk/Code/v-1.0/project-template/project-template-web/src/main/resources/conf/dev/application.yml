@@ -44,6 +44,6 @@ mybatis:
   configuration:
     map-underscore-to-camel-case: true
   mapper-locations: classpath*:mybatis/**/*Mapper.xml
-  typeAliasesPackage: com.leador.**.domain
+  typeAliasesPackage: com.wjy.**.domain
 #[\u5f03\u7528]\u914d\u7f6e\u7f13\u5b58\u548csession\u5b58\u50a8\u65b9\u5f0f\uff0c\u9ed8\u8ba4ehcache,\u53ef\u9009redis,[\u5f03\u7528]\u8c03\u6574\u81f3 spring cache type\u3010shiro.\u7528\u6237\uff0c\u6743\u9650\uff0csession\uff0cspring.cache\u901a\u7528\u3011
 #[\u5f03\u7528]cacheType: ehcache

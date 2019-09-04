@@ -5,15 +5,17 @@ import java.util.Map;
 
 import com.wjy.common.system.domain.DeptDO;
 import com.wjy.common.system.domain.Tree;
+import org.springframework.stereotype.Service;
 
 /**
  * <p>Title: DeptService</p>
  * <p>Description: 部门管理</p>
- * <p>Company: www.leador.com.cn</p> 
+ * <p>Company: www.wjy.com.cn</p>
  * <p>Date: 2018年10月25日 上午10:47:50</p>
  * @author	XiaShenBao
  * @version 1.0
  */
+@Service
 public interface DeptService {
 	
 	DeptDO get(Long deptId);

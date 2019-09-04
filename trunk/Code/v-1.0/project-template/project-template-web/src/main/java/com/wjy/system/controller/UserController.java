@@ -1,4 +1,4 @@
-package com.leador.system.controller;
+package com.wjy.system.controller;
 
 import java.util.List;
 import java.util.Map;
@@ -31,7 +31,7 @@ import com.wjy.data.system.service.UserService;
 /**
  * <p>Title: UserController</p>
  * <p>Description: 用户管理</p>
- * <p>Company: www.leador.com.cn</p>
+ * <p>Company: www.wjy.com.cn</p>
  * <p>Date: 2018年10月25日 上午11:23:29</p>
  *
  * @author XiaShenBao

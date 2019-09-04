@@ -1,4 +1,4 @@
-package com.leador.system.controller;
+package com.wjy.system.controller;
 
 import java.util.Collection;
 import java.util.List;
@@ -19,7 +19,7 @@ import com.wjy.data.system.service.SessionService;
 /**
  * <p>Title: SessionController</p>
  * <p>Description: Session控制</p>
- * <p>Company: www.leador.com.cn</p> 
+ * <p>Company: www.wjy.com.cn</p>
  * <p>Date: 2018年10月25日 上午11:23:18</p>
  * @author	XiaShenBao
  * @version 1.0

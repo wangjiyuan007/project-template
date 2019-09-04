@@ -10,7 +10,7 @@ import com.wjy.common.system.domain.UserRoleDO;
 /**
  * <p>Title: UserRoleDao</p>
  * <p>Description: 用户与角色对应关系</p>
- * <p>Company: www.leador.com.cn</p> 
+ * <p>Company: www.wjy.com.cn</p>
  * <p>Date: 2018年10月25日 上午10:58:06</p>
  * @author	XiaShenBao
  * @version 1.0

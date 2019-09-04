@@ -9,7 +9,7 @@ import com.wjy.common.system.utils.Query;
 /**
  * <p>Title: LogService</p>
  * <p>Description: 日志管理</p>
- * <p>Company: www.leador.com.cn</p> 
+ * <p>Company: www.wjy.com.cn</p>
  * <p>Date: 2018年10月25日 上午10:49:04</p>
  * @author	XiaShenBao
  * @version 1.0

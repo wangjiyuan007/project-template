@@ -3,7 +3,7 @@ package com.wjy.common.system.config;
 /**
  * <p>Title: Constant</p>
  * <p>Description: 系统常量</p>
- * <p>Company: www.leador.com.cn</p> 
+ * <p>Company: www.wjy.com.cn</p>
  * <p>Date: 2018年10月25日 下午4:47:14</p>
  * @author	XiaShenBao
  * @version 1.0

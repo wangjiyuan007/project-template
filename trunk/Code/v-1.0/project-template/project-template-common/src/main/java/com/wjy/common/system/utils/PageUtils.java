@@ -6,7 +6,7 @@ import java.util.List;
 /**
  * <p>Title: PageUtils</p>
  * <p>Description: 页面工具类</p>
- * <p>Company: www.leador.com.cn</p> 
+ * <p>Company: www.wjy.com.cn</p>
  * <p>Date: 2019年2月26日 下午7:10:41</p>
  * @author	XiaShenBao
  * @version 1.0

@@ -10,7 +10,7 @@ import com.wjy.common.system.domain.LogDO;
 /**
  * <p>Title: LogDao</p>
  * <p>Description: 系统日志</p>
- * <p>Company: www.leador.com.cn</p> 
+ * <p>Company: www.wjy.com.cn</p>
  * <p>Date: 2018年10月25日 上午10:56:07</p>
  * @author	XiaShenBao
  * @version 1.0

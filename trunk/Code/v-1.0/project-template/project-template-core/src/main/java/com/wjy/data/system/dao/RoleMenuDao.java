@@ -10,7 +10,7 @@ import com.wjy.common.system.domain.RoleMenuDO;
 /**
  * <p>Title: RoleMenuDao</p>
  * <p>Description: 角色与菜单对应关系</p>
- * <p>Company: www.leador.com.cn</p> 
+ * <p>Company: www.wjy.com.cn</p>
  * <p>Date: 2018年10月25日 上午10:57:15</p>
  * @author	XiaShenBao
  * @version 1.0

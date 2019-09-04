@@ -14,7 +14,7 @@ import java.util.List;
 /**
  * <p>Title: ShiroUtils</p>
  * <p>Description: shiro工具类</p>
- * <p>Company: www.leador.com.cn</p> 
+ * <p>Company: www.wjy.com.cn</p>
  * <p>Date: 2019年2月27日 上午10:48:26</p>
  * @author	XiaShenBao
  * @version 1.0

@@ -1,4 +1,4 @@
-package com.leador.system.controller;
+package com.wjy.system.controller;
 
 import java.util.Comparator;
 import java.util.HashMap;
@@ -27,7 +27,7 @@ import com.wjy.data.system.service.DictService;
 /**
  * <p>Title: DictController</p>
  * <p>Description: 字典管理</p>
- * <p>Company: www.leador.com.cn</p>
+ * <p>Company: www.wjy.com.cn</p>
  * <p>Date: 2018年10月25日 上午11:19:34</p>
  *
  * @author XiaShenBao

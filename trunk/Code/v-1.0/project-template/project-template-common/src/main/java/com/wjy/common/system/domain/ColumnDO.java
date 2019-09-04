@@ -5,7 +5,7 @@ import lombok.Data;
 /**
  * <p>Title: ColumnDO</p>
  * <p>Description: 列的属性类</p>
- * <p>Company: www.leador.com.cn</p> 
+ * <p>Company: www.wjy.com.cn</p>
  * <p>Date: 2018年10月24日 下午7:13:26</p>
  * @author	XiaShenBao
  * @version 1.0

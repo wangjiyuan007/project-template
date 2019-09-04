@@ -9,7 +9,7 @@ import com.wjy.common.system.domain.UserDO;
 /**
  * <p>Title: DictService</p>
  * <p>Description: 字典管理 </p>
- * <p>Company: www.leador.com.cn</p> 
+ * <p>Company: www.wjy.com.cn</p>
  * <p>Date: 2018年10月25日 上午10:48:04</p>
  * @author	XiaShenBao
  * @version 1.0

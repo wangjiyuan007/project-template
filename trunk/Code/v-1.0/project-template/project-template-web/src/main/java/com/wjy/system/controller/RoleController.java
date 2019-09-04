@@ -1,4 +1,4 @@
-package com.leador.system.controller;
+package com.wjy.system.controller;
 
 import java.util.List;
 
@@ -22,7 +22,7 @@ import com.wjy.data.system.service.RoleService;
 /**
  * <p>Title: RoleController</p>
  * <p>Description: 角色管理</p>
- * <p>Company: www.leador.com.cn</p> 
+ * <p>Company: www.wjy.com.cn</p>
  * <p>Date: 2018年10月25日 上午11:23:10</p>
  * @author	XiaShenBao
  * @version 1.0

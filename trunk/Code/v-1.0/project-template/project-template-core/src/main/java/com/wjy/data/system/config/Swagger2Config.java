@@ -15,7 +15,7 @@ import springfox.documentation.swagger2.annotations.EnableSwagger2;
 /**
  * <p>Title: Swagger2Config</p>
  * <p>Description: Swagger2配置</p>
- * <p>Company: www.leador.com.cn</p> 
+ * <p>Company: www.wjy.com.cn</p>
  * <p>Date: 2018年10月25日 下午3:11:06</p>
  * @author	XiaShenBao
  * @version 1.0

@@ -23,7 +23,7 @@ import com.wjy.data.system.service.LogService;
 /**
  * <p>Title: BDExceptionHandler</p>
  * <p>Description: 异常处理器</p>
- * <p>Company: www.leador.com.cn</p> 
+ * <p>Company: www.wjy.com.cn</p>
  * <p>Date: 2018年10月25日 上午11:20:55</p>
  * @author	XiaShenBao
  * @version 1.0

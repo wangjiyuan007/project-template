@@ -14,7 +14,7 @@ import com.wjy.common.system.vo.UserVO;
 /**
  * <p>Title: UserService</p>
  * <p>Description: 用户管理</p>
- * <p>Company: www.leador.com.cn</p> 
+ * <p>Company: www.wjy.com.cn</p>
  * <p>Date: 2018年10月25日 上午10:51:44</p>
  * @author	XiaShenBao
  * @version 1.0

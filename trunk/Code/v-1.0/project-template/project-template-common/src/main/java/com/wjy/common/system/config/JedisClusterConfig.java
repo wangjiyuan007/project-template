@@ -1,4 +1,4 @@
-//package com.leador.common.system.config;
+//package com.wjy.common.system.config;
 //
 //import org.apache.commons.lang3.StringUtils;
 //import org.apache.commons.pool2.impl.GenericObjectPoolConfig;

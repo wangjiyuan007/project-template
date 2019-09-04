@@ -28,7 +28,7 @@ import java.util.Map;
 /**
  * <p>Title: ShiroConfig</p>
  * <p>Description: Shiro配置</p>
- * <p>Company: www.leador.com.cn</p>
+ * <p>Company: www.wjy.com.cn</p>
  * <p>Date: 2018年10月25日 上午11:29:22</p>
  *
  * @author XiaShenBao

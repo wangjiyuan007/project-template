@@ -9,7 +9,7 @@ import org.apache.ibatis.annotations.Mapper;
 /**
  * <p>Title: DictDao</p>
  * <p>Description: 字典管理</p>
- * <p>Company: www.leador.com.cn</p> 
+ * <p>Company: www.wjy.com.cn</p>
  * <p>Date: 2018年10月25日 上午10:55:33</p>
  * @author	XiaShenBao
  * @version 1.0
